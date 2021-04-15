@@ -12,13 +12,17 @@ public class Guess_Number {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println("Guess a number");
+        
+        System.out.print("Guess a number:");
         int number = in.nextInt();
+        while (number != 0){
         if (number == 7){
             System.out.println("You guessed right");
+            return;
         }else{
-            System.out.println("Wrong guess");
+            System.out.println("Wrong guess,(Enter 0 to exit). Try again:");
+            number =in.nextInt();
         }
-    }
+    }}
     
 }
