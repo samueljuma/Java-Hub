@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * <h1> Count Number of Characters in a String!</h1>
  * The program counts the number of characters and displays the result on the screen
- * <p><b>Note: </b>It is also a sample of how to automatically generate java documentation in HTML</>
+ * <p><b>Note: </b>It is also a sample of how to automatically generate java documentation in HTML</p>
  * @author Java_Pro
  * @version 1.1
  */
