@@ -22,7 +22,7 @@ public class Main {
         System.out.println("Your entered: " + userInput);
 
         //Tell user if the String they entered is a Palindrome
-        displayResult(userInput,isPalindrome(userInput));
+        displayResult(userInput,isPalindrome_1(userInput));
     }
 
      static boolean isPalindrome(String input){
@@ -35,6 +35,15 @@ public class Main {
 
          //Returns true or false
          return reverse.toString().equals(input);
+
+    }
+
+    static boolean isPalindrome_1(String input){
+
+        String reverseString = new StringBuilder(input).reverse().toString();
+
+        //Returns true or false
+        return reverseString.equals(input);
 
     }
 
